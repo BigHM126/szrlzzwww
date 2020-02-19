@@ -1,35 +1,51 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        szrlzzwww
-      </h1>
-      <h2 class="subtitle">
-        My lovely Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+    <main-banner></main-banner>
+    <features></features>
+    <about></about>
+    <services></services>
+    <choose></choose>
+    <maintab></maintab>
+    <project></project>
+    <team></team>
+    <Testimonial></Testimonial>
+    <analysis></analysis>
+    <blog></blog>
+    <partner></partner>
+    <subscribe></subscribe>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import MainBanner from '~/components/partials/MainBanner'
+import Features from '~/components/partials/Features'
+import About from '~/components/partials/About'
+import Services from '~/components/partials/Services'
+import Choose from '~/components/partials/Choose'
+import Maintab from '~/components/partials/Maintab'
+import Project from '~/components/partials/Project'
+import Team from '~/components/partials/Team'
+import Testimonial from '~/components/partials/Testimonial'
+import Analysis from '~/components/partials/Analysis'
+import Blog from '~/components/partials/Blog'
+import Partner from '~/components/partials/Partner'
+import Subscribe from '~/components/partials/Subscribe'
 
 export default {
   components: {
-    Logo
+    MainBanner,
+    Features,
+    About,
+    Services,
+    Choose,
+    Maintab,
+    Project,
+    Team,
+    Testimonial,
+    Analysis,
+    Blog,
+    Partner,
+    Subscribe
   }
 }
 </script>

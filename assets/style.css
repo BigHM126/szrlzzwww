@@ -4108,7 +4108,7 @@ Subscribe Area CSS
     z-index: 1;
     overflow: hidden;
     background-color: #f20791;
-    background-image: url(~assets/crimso/img/subscribe-bg.jpg);
+    background-image: url(~assets/img/subscribe-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4212,7 +4212,7 @@ Page Title Area CSS
 .page-title-area {
     position: relative;
     z-index: 1;
-    background-image: url(~assets/crimso/img/page-title-bg.jpg);
+    background-image: url(~assets/img/page-title-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5258,15 +5258,15 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_zash_posts_thumb .item .thumb .fullimage.bg1 {
-    background-image: url(~assets/crimso/img/blog-details-image/1.jpg);
+    background-image: url(~assets/img/blog-details-image/1.jpg);
 }
 
 .widget-area .widget_zash_posts_thumb .item .thumb .fullimage.bg2 {
-    background-image: url(~assets/crimso/img/blog-details-image/2.jpg);
+    background-image: url(~assets/img/blog-details-image/2.jpg);
 }
 
 .widget-area .widget_zash_posts_thumb .item .thumb .fullimage.bg3 {
-    background-image: url(~assets/crimso/img/blog-details-image/3.jpg);
+    background-image: url(~assets/img/blog-details-image/3.jpg);
 }
 
 .widget-area .widget_zash_posts_thumb .item .info {
@@ -7114,7 +7114,7 @@ Coming Soon Area CSS
     position: relative;
     z-index: 1;
     height: 100vh;
-    background-image: url(~assets/crimso/img//coming-soon-bg.jpg);
+    background-image: url(~assets/img/coming-soon-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7267,7 +7267,7 @@ Footer Section CSS
 =================================================*/
 
 .footer-section {
-    background-image: url(~assets/crimso/img/footer-bg.jpg);
+    background-image: url(~assets/img/footer-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

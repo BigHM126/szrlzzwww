@@ -46,15 +46,15 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="footer-item-area">
               <div class="footer-heading">
-                <h3>Important Links</h3>
+                <h3>链接</h3>
               </div>
 
               <ul class="footer-quick-links">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">关于</a></li>
+                <li><a href="#">产品</a></li>
+                <li><a href="#">案例</a></li>
+                <li><a href="#">生态</a></li>
+                <li><a href="#">新闻</a></li>
               </ul>
             </div>
           </div>
@@ -62,7 +62,7 @@
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="footer-item-area">
               <div class="footer-heading">
-                <h3>Featured Service</h3>
+                <h3>服务</h3>
               </div>
 
               <ul class="footer-quick-links">
@@ -77,24 +77,24 @@
 
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="footer-heading">
-              <h3>Contact</h3>
+              <h3>联系我们</h3>
             </div>
 
             <div class="footer-info-contact">
               <i class="flaticon-call-answer"></i>
-              <h3>Phone</h3>
+              <h3>电话</h3>
               <span>882-569-756</span>
             </div>
 
             <div class="footer-info-contact">
               <i class="flaticon-envelope"></i>
-              <h3>Email</h3>
+              <h3>邮件</h3>
               <span><a href="#">hello@crimso.com</a></span>
             </div>
 
             <div class="footer-info-contact">
               <i class="flaticon-placeholder-filled-point"></i>
-              <h3>Address</h3>
+              <h3>地址</h3>
               <span>123, Western Road, Melbourne Australia</span>
             </div>
           </div>
@@ -128,20 +128,17 @@
           <div class="col-lg-6 col-md-6">
             <p>
               <i class="far fa-copyright"></i>
-              2019 Crimso. All Rights Reserved by
-              <a href="http://www.bootstrapmb.com/" target="_blank"
-                >EnvyTheme</a
-              >
+              2019 SZReallink. All Rights Reserved
             </p>
           </div>
 
           <div class="col-lg-6 col-md-6">
             <ul>
               <li>
-                <a href="#">Terms & Conditions</a>
+                <a href="#">责任条款</a>
               </li>
               <li>
-                <a href="#">Privacy Policy</a>
+                <a href="#">隐私政策</a>
               </li>
             </ul>
           </div>
