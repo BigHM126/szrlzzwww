@@ -5,18 +5,14 @@
       <div class="row align-items-center">
         <div class="col-lg-5 col-md-12">
           <div class="features-content-area">
-            <span>Care Features</span>
-            <h3>Create Awesome Service With Our Tools</h3>
+            <span>方案特色</span>
+            <h3>数字化转型快速落地</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.Lorem Ipsum is simply dummy text of
-              the printing and typesetting industry.
+              国内领先的智能仓储解决方案、智能制造解决方案、企业信息化方案、软硬件综合服务提供商。
             </p>
 
             <div class="features-btn">
-              <a href="#" class="features-btn-one">More Details</a>
+              <a href="#" class="features-btn-one">了解方案</a>
             </div>
           </div>
         </div>
@@ -29,7 +25,7 @@
                   <i class="flaticon-seo"></i>
                 </div>
 
-                <h3>Seo Consultancy</h3>
+                <h3>成熟的行业方案</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
@@ -43,7 +39,7 @@
                   <i class="flaticon-analytics"></i>
                 </div>
 
-                <h3>Competitor Analysis</h3>
+                <h3>丰富的智能应用</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
@@ -57,7 +53,7 @@
                   <i class="flaticon-laptop"></i>
                 </div>
 
-                <h3>Social Media Marketing</h3>
+                <h3>稳定的技术架构</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
@@ -71,7 +67,7 @@
                   <i class="flaticon-analysis-1"></i>
                 </div>
 
-                <h3>Competitor Analysis</h3>
+                <h3>广泛的周边生态</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
@@ -85,10 +81,10 @@
 
     <div class="features-animation">
       <div class="shape-img1">
-        <img src="assets/img/shape/8.png" alt="image" />
+        <img src="~assets/img/shape/8.png" alt="image" />
       </div>
       <div class="shape-img2">
-        <img src="assets/img/shape/5.png" alt="image" />
+        <img src="~assets/img/shape/5.png" alt="image" />
       </div>
     </div>
   </section>

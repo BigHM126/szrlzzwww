@@ -5,18 +5,15 @@
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-12">
           <div class="analysis-image">
-            <img src="assets/img/analysis-image.png" alt="image" />
+            <img src="~assets/img/analysis-image.png" alt="image" />
           </div>
         </div>
 
         <div class="col-lg-6 col-md-12">
           <div class="analysis-area-content">
-            <span>Analysis</span>
-            <h3>Get Free SEO Analysis</h3>
-            <strong
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.</strong
-            >
+            <span>Preview</span>
+            <h3>预约演示</h3>
+            <strong>预约专业工程师上门为您服务，深入了解更多方案详情</strong>
           </div>
 
           <form class="contactForm">
@@ -28,7 +25,7 @@
                     type="text"
                     name="name"
                     class="form-control"
-                    placeholder="Your Name*"
+                    placeholder="姓名*"
                   />
                 </div>
               </div>
@@ -40,7 +37,7 @@
                     type="text"
                     name="text"
                     class="form-control"
-                    placeholder="Email*"
+                    placeholder="企业全称*"
                   />
                 </div>
               </div>
@@ -52,7 +49,7 @@
                     type="text"
                     name="name"
                     class="form-control"
-                    placeholder="Phone*"
+                    placeholder="电话*"
                   />
                 </div>
               </div>
@@ -64,7 +61,7 @@
                     type="text"
                     name="name"
                     class="form-control"
-                    placeholder="Website*"
+                    placeholder="网址*"
                   />
                 </div>
               </div>
@@ -72,7 +69,7 @@
               <div class="col-lg-12 col-md-12">
                 <div class="send-btn">
                   <button type="submit" class="default-btn-one">
-                    Send Message
+                    提交
                   </button>
                 </div>
               </div>

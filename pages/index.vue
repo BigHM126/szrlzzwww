@@ -12,7 +12,6 @@
     <analysis></analysis>
     <blog></blog>
     <partner></partner>
-    <subscribe></subscribe>
   </div>
 </template>
 
@@ -29,7 +28,6 @@ import Testimonial from '~/components/partials/Testimonial'
 import Analysis from '~/components/partials/Analysis'
 import Blog from '~/components/partials/Blog'
 import Partner from '~/components/partials/Partner'
-import Subscribe from '~/components/partials/Subscribe'
 
 export default {
   components: {
@@ -44,8 +42,7 @@ export default {
     Testimonial,
     Analysis,
     Blog,
-    Partner,
-    Subscribe
+    Partner
   }
 }
 </script>

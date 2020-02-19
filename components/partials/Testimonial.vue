@@ -5,8 +5,8 @@
       <div class="row align-items-center">
         <div class="col-lg-4">
           <div class="testimonial-content-area">
-            <span>Testimonial</span>
-            <h3>What Our Client Say</h3>
+            <span>客户评价</span>
+            <h3>实践并深入应用收获最真实的体会</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
@@ -21,7 +21,7 @@
           <div class="testimonial-slides owl-carousel owl-theme">
             <div class="testimonial-single-item">
               <div class="testimonial-image">
-                <img src="assets/img/client-image/1.jpg" alt="image" />
+                <img src="~assets/img/client-image/1.jpg" alt="image" />
               </div>
 
               <div class="testimonial-content-text">
@@ -40,7 +40,7 @@
 
             <div class="testimonial-single-item">
               <div class="testimonial-image">
-                <img src="assets/img/client-image/2.jpg" alt="image" />
+                <img src="~assets/img/client-image/2.jpg" alt="image" />
               </div>
 
               <div class="testimonial-content-text">
@@ -59,7 +59,7 @@
 
             <div class="testimonial-single-item">
               <div class="testimonial-image">
-                <img src="assets/img/client-image/3.jpg" alt="image" />
+                <img src="~assets/img/client-image/3.jpg" alt="image" />
               </div>
 
               <div class="testimonial-content-text">
@@ -78,7 +78,7 @@
 
             <div class="testimonial-single-item">
               <div class="testimonial-image">
-                <img src="assets/img/client-image/1.jpg" alt="image" />
+                <img src="~assets/img/client-image/1.jpg" alt="image" />
               </div>
 
               <div class="testimonial-content-text">
@@ -97,7 +97,7 @@
 
             <div class="testimonial-single-item">
               <div class="testimonial-image">
-                <img src="assets/img/client-image/4.jpg" alt="image" />
+                <img src="~assets/img/client-image/4.jpg" alt="image" />
               </div>
 
               <div class="testimonial-content-text">

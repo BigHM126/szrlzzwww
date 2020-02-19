@@ -3,8 +3,8 @@
   <section class="tab-section">
     <div class="container">
       <div class="section-title">
-        <span>Boosting</span>
-        <h3>Outstanding Digital Experience</h3>
+        <span>应用场景</span>
+        <h3>丰富的行业化应用场景</h3>
       </div>
 
       <div class="tab boosting-list-tab">
@@ -12,42 +12,35 @@
           <li>
             <a href="#">
               <i class="flaticon-analysis-2"></i>
-              <span>Real-Time-Analytics</span>
+              <span>实时数据驱动</span>
             </a>
           </li>
 
           <li class="bg-eff7e9">
             <a href="#">
               <i class="flaticon-hand"></i>
-              <span>Pay-Per-Click</span>
+              <span>流程紧密集成</span>
             </a>
           </li>
 
           <li class="bg-fff8f0">
             <a href="#">
               <i class="flaticon-digital-marketing"></i>
-              <span>Online Marketing</span>
+              <span>实时在线分析</span>
             </a>
           </li>
 
           <li class="bg-ecfaf7">
             <a href="#">
               <i class="flaticon-email"></i>
-              <span>Email Marketing</span>
+              <span>业务及时掌控</span>
             </a>
           </li>
 
           <li class="bg-f2f0fb">
             <a href="#">
               <i class="flaticon-network"></i>
-              <span>Social Marketing</span>
-            </a>
-          </li>
-
-          <li class="bg-c5ebf9">
-            <a href="#">
-              <i class="flaticon-analysis-1"></i>
-              <span>Digital Marketing</span>
+              <span>安全高效运维</span>
             </a>
           </li>
         </ul>
@@ -57,13 +50,13 @@
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="tab-image">
-                  <img src="assets/img/tab/1.jpg" alt="image" />
+                  <img src="~assets/img/tab/1.jpg" alt="image" />
                 </div>
               </div>
 
               <div class="col-lg-7">
                 <div class="content">
-                  <h2>Real-Time Analytics</h2>
+                  <h2>实时数据驱动</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -97,13 +90,13 @@
                 </div>
 
                 <div class="tab-btn">
-                  <a href="#" class="default-btn-one">Discover More</a>
+                  <a href="#" class="default-btn-one">马上体验</a>
                 </div>
               </div>
             </div>
 
             <div class="tab-shape">
-              <img src="assets/img/tab/shape.png" alt="image" />
+              <img src="~assets/img/tab/shape.png" alt="image" />
             </div>
           </div>
 
@@ -111,7 +104,7 @@
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="tab-image">
-                  <img src="assets/img/tab/2.jpg" alt="image" />
+                  <img src="~assets/img/tab/2.jpg" alt="image" />
                 </div>
               </div>
 
@@ -157,7 +150,7 @@
             </div>
 
             <div class="tab-shape">
-              <img src="assets/img/tab/shape.png" alt="image" />
+              <img src="~assets/img/tab/shape.png" alt="image" />
             </div>
           </div>
 
@@ -165,7 +158,7 @@
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="tab-image">
-                  <img src="assets/img/tab/3.jpg" alt="image" />
+                  <img src="~assets/img/tab/3.jpg" alt="image" />
                 </div>
               </div>
 
@@ -211,7 +204,7 @@
             </div>
 
             <div class="tab-shape">
-              <img src="assets/img/tab/shape.png" alt="image" />
+              <img src="~assets/img/tab/shape.png" alt="image" />
             </div>
           </div>
 
@@ -219,7 +212,7 @@
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="tab-image">
-                  <img src="assets/img/tab/4.jpg" alt="image" />
+                  <img src="~assets/img/tab/4.jpg" alt="image" />
                 </div>
               </div>
 
@@ -265,7 +258,7 @@
             </div>
 
             <div class="tab-shape">
-              <img src="assets/img/tab/shape.png" alt="image" />
+              <img src="~assets/img/tab/shape.png" alt="image" />
             </div>
           </div>
 
@@ -273,7 +266,7 @@
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="tab-image">
-                  <img src="assets/img/tab/5.jpg" alt="image" />
+                  <img src="~assets/img/tab/5.jpg" alt="image" />
                 </div>
               </div>
 
@@ -319,7 +312,7 @@
             </div>
 
             <div class="tab-shape">
-              <img src="assets/img/tab/shape.png" alt="image" />
+              <img src="~assets/img/tab/shape.png" alt="image" />
             </div>
           </div>
 
@@ -327,7 +320,7 @@
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="tab-image">
-                  <img src="assets/img/tab/6.jpg" alt="image" />
+                  <img src="~assets/img/tab/6.jpg" alt="image" />
                 </div>
               </div>
 
@@ -373,7 +366,7 @@
             </div>
 
             <div class="tab-shape">
-              <img src="assets/img/tab/shape.png" alt="image" />
+              <img src="~assets/img/tab/shape.png" alt="image" />
             </div>
           </div>
         </div>
