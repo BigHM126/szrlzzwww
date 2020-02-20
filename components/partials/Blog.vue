@@ -6,7 +6,6 @@
         <span>要闻</span>
         <h3>及时了解行业新闻</h3>
       </div>
-
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="blog-item">
