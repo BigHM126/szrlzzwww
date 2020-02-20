@@ -17,8 +17,8 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 body {
     padding: 0;
     margin: 0;
@@ -86,6 +86,20 @@ p:last-child {
     margin-bottom: 0;
 }
 
+article {
+    margin: 2rem 0;
+    &>p {
+        text-indent: 2rem;
+    }
+    div {
+        text-align: center;
+        img {
+            margin: 1rem 0;
+            max-width: 85%;
+        }
+    }
+}
+
 .h1,
 .h2,
 .h3,
@@ -106,7 +120,7 @@ h6 {
     padding: 13px 30px;
     color: #ffffff;
     text-transform: capitalize;
-    background-color: #ff2121;
+    background-color: #ff3300;
     border: 1px solid #ff2121;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -126,7 +140,7 @@ h6 {
 }
 
 .section-title span {
-    font-size: 14px;
+    font-size: 18px;
     color: #ff2121;
     font-weight: 500;
     text-transform: uppercase;
@@ -143,7 +157,7 @@ h6 {
 
 .section-title h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -155,7 +169,7 @@ h6 {
 
 .section-title h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -188,8 +202,8 @@ Go Top CSS
     line-height: 40px;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: .9s;
-    transition: .9s;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
     border-radius: 50%;
 }
 
@@ -267,6 +281,10 @@ NavBar Area CSS 主菜单
 
 b-navbar-toggle {
     background-color: #ff724e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
 }
 
 .navlink:hover {
@@ -797,7 +815,7 @@ Features Section CSS
 }
 
 .features-content-area span {
-    font-size: 14px;
+    font-size: 18px;
     color: #ff2121;
     font-weight: 500;
     text-transform: uppercase;
@@ -814,7 +832,7 @@ Features Section CSS
 
 .features-content-area h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -824,7 +842,7 @@ Features Section CSS
 
 .features-content-area h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -1034,7 +1052,7 @@ About Section CSS
 
 .about-area-content h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -1044,7 +1062,7 @@ About Section CSS
 
 .about-area-content h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -1221,7 +1239,7 @@ Choose Section CSS
 }
 
 .choose-content-area span {
-    font-size: 14px;
+    font-size: 18px;
     color: #ff2121;
     font-weight: 500;
     text-transform: uppercase;
@@ -1239,7 +1257,7 @@ Choose Section CSS
 
 .choose-content-area h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -1249,7 +1267,7 @@ Choose Section CSS
 
 .choose-content-area h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -1386,8 +1404,8 @@ Tab Section CSS
 }
 
 .boosting-list-tab .tabs li.bg-eff7e9 {
-    background: -webkit-gradient(linear, left top, right top, from(#f3fbed), color-stop(#f1f9eb), color-stop(#f0f7e9), color-stop(#eef5e8), to(#ecf3e6));
-    background: linear-gradient(to right, #f3fbed, #f1f9eb, #f0f7e9, #eef5e8, #ecf3e6);
+    background: -webkit-gradient( linear, left top, right top, from(#f3fbed), color-stop(#f1f9eb), color-stop(#f0f7e9), color-stop(#eef5e8), to(#ecf3e6));
+    background: linear-gradient( to right, #f3fbed, #f1f9eb, #f0f7e9, #eef5e8, #ecf3e6);
 }
 
 .boosting-list-tab .tabs li.bg-eff7e9 i {
@@ -1395,8 +1413,8 @@ Tab Section CSS
 }
 
 .boosting-list-tab .tabs li.bg-fff8f0 {
-    background: -webkit-gradient(linear, left top, right top, from(#fff8f0), color-stop(#fdf6ee), color-stop(#fbf4ec), color-stop(#f9f2ea), to(#f7f0e8));
-    background: linear-gradient(to right, #fff8f0, #fdf6ee, #fbf4ec, #f9f2ea, #f7f0e8);
+    background: -webkit-gradient( linear, left top, right top, from(#fff8f0), color-stop(#fdf6ee), color-stop(#fbf4ec), color-stop(#f9f2ea), to(#f7f0e8));
+    background: linear-gradient( to right, #fff8f0, #fdf6ee, #fbf4ec, #f9f2ea, #f7f0e8);
 }
 
 .boosting-list-tab .tabs li.bg-fff8f0 i {
@@ -1404,8 +1422,8 @@ Tab Section CSS
 }
 
 .boosting-list-tab .tabs li.bg-ecfaf7 {
-    background: -webkit-gradient(linear, left top, right top, from(#ecfaf7), color-stop(#eaf8f5), color-stop(#e8f6f3), color-stop(#e7f4f1), to(#e5f2ef));
-    background: linear-gradient(to right, #ecfaf7, #eaf8f5, #e8f6f3, #e7f4f1, #e5f2ef);
+    background: -webkit-gradient( linear, left top, right top, from(#ecfaf7), color-stop(#eaf8f5), color-stop(#e8f6f3), color-stop(#e7f4f1), to(#e5f2ef));
+    background: linear-gradient( to right, #ecfaf7, #eaf8f5, #e8f6f3, #e7f4f1, #e5f2ef);
 }
 
 .boosting-list-tab .tabs li.bg-ecfaf7 i {
@@ -1413,8 +1431,8 @@ Tab Section CSS
 }
 
 .boosting-list-tab .tabs li.bg-f2f0fb {
-    background: -webkit-gradient(linear, left top, right top, from(#f2f0fb), color-stop(#f2f0fb), color-stop(#f2f0fb), color-stop(#f2f0fb), to(#f2f0fb));
-    background: linear-gradient(to right, #f2f0fb, #f2f0fb, #f2f0fb, #f2f0fb, #f2f0fb);
+    background: -webkit-gradient( linear, left top, right top, from(#f2f0fb), color-stop(#f2f0fb), color-stop(#f2f0fb), color-stop(#f2f0fb), to(#f2f0fb));
+    background: linear-gradient( to right, #f2f0fb, #f2f0fb, #f2f0fb, #f2f0fb, #f2f0fb);
 }
 
 .boosting-list-tab .tabs li.bg-f2f0fb i {
@@ -1422,8 +1440,8 @@ Tab Section CSS
 }
 
 .boosting-list-tab .tabs li.bg-c5ebf9 {
-    background: -webkit-gradient(linear, left top, right top, from(#c5ebf9), color-stop(#c5ebf9), color-stop(#c5ebf9), color-stop(#c5ebf9), to(#c5ebf9));
-    background: linear-gradient(to right, #c5ebf9, #c5ebf9, #c5ebf9, #c5ebf9, #c5ebf9);
+    background: -webkit-gradient( linear, left top, right top, from(#c5ebf9), color-stop(#c5ebf9), color-stop(#c5ebf9), color-stop(#c5ebf9), to(#c5ebf9));
+    background: linear-gradient( to right, #c5ebf9, #c5ebf9, #c5ebf9, #c5ebf9, #c5ebf9);
 }
 
 .boosting-list-tab .tabs li.bg-c5ebf9 i {
@@ -1535,8 +1553,8 @@ Project Section CSS
     font-weight: 500;
     display: inline-block;
     margin-right: 35px;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     -webkit-transition: 0.5s;
 }
 
@@ -1741,7 +1759,7 @@ Testimonial Section CSS
 }
 
 .testimonial-content-area span {
-    font-size: 14px;
+    font-size: 18px;
     color: #ff2121;
     font-weight: 500;
     text-transform: uppercase;
@@ -1758,7 +1776,7 @@ Testimonial Section CSS
 
 .testimonial-content-area h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -1768,7 +1786,7 @@ Testimonial Section CSS
 
 .testimonial-content-area h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -1797,7 +1815,7 @@ Testimonial Section CSS
 
 .testimonial-slides .testimonial-single-item::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 130px;
     width: 130px;
     line-height: 130px;
@@ -1858,7 +1876,7 @@ Testimonial Section CSS
 }
 
 .testimonial-slides.owl-theme .owl-dots {
-    line-height: .01;
+    line-height: 0.01;
     position: absolute;
     right: 0;
     left: 0;
@@ -1872,8 +1890,8 @@ Testimonial Section CSS
     height: 15px;
     margin: 0 5px;
     background-color: #dfdfdf;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     border-radius: 50px;
 }
 
@@ -1918,7 +1936,7 @@ Analysis Section CSS
 
 .analysis-area-content h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -1928,7 +1946,7 @@ Analysis Section CSS
 
 .analysis-area-content h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -2072,8 +2090,8 @@ Blog Section CSS
 
 .blog-item .single-blog-item .blog-content h3:hover {
     color: #ff2121;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     -webkit-transition: 0.5s;
     text-decoration: none;
 }
@@ -2097,8 +2115,8 @@ Blog Section CSS
     margin-top: 20px;
     background-color: #ff2121;
     color: #ffffff;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     text-transform: uppercase;
 }
 
@@ -2460,7 +2478,7 @@ Features Area CSS
 
 .features-area .features-title h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -2472,7 +2490,7 @@ Features Area CSS
 
 .features-area .features-title h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -2794,8 +2812,8 @@ Pricing Section CSS
 
 .tab-content .tabs-item .single-pricing-box.bg-f6f5fb .price-btn .price-btn-one {
     display: inline-block;
-    background: -webkit-gradient(linear, left top, right top, from(#7b55d0), color-stop(#8c65d9), color-stop(#9d75e3), color-stop(#ad85ec), to(#bd96f6));
-    background: linear-gradient(to right, #7b55d0, #8c65d9, #9d75e3, #ad85ec, #bd96f6);
+    background: -webkit-gradient( linear, left top, right top, from(#7b55d0), color-stop(#8c65d9), color-stop(#9d75e3), color-stop(#ad85ec), to(#bd96f6));
+    background: linear-gradient( to right, #7b55d0, #8c65d9, #9d75e3, #ad85ec, #bd96f6);
     color: #ffffff;
     padding: 10px 30px;
     font-size: 15px;
@@ -2943,8 +2961,8 @@ Pricing Section CSS
 
 .tab-content .tabs-item .single-pricing-box.bg-edfbf8 .price-btn .price-btn-one {
     display: inline-block;
-    background: -webkit-gradient(linear, left top, right top, from(#02a180), color-stop(#2fae90), color-stop(#48baa1), color-stop(#5ec7b1), to(#73d4c1));
-    background: linear-gradient(to right, #02a180, #2fae90, #48baa1, #5ec7b1, #73d4c1);
+    background: -webkit-gradient( linear, left top, right top, from(#02a180), color-stop(#2fae90), color-stop(#48baa1), color-stop(#5ec7b1), to(#73d4c1));
+    background: linear-gradient( to right, #02a180, #2fae90, #48baa1, #5ec7b1, #73d4c1);
     color: #ffffff;
     padding: 10px 30px;
     font-size: 15px;
@@ -3030,7 +3048,7 @@ Client Section CSS
 
 .client-slides .testimonial-single-item::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 104px;
     width: 105px;
     line-height: 130px;
@@ -3090,7 +3108,7 @@ Client Section CSS
 }
 
 .client-slides.owl-theme .owl-dots {
-    line-height: .01;
+    line-height: 0.01;
     position: absolute;
     right: 0;
     left: 0;
@@ -3104,8 +3122,8 @@ Client Section CSS
     height: 15px;
     margin: 0 5px;
     background-color: #dfdfdf;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     border-radius: 50px;
 }
 
@@ -3150,7 +3168,7 @@ Faq Section CSS
 
 .faq-area-content h3::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 80px;
     background-color: #fab4a2;
@@ -3160,7 +3178,7 @@ Faq Section CSS
 
 .faq-area-content h3::after {
     position: absolute;
-    content: "";
+    content: '';
     height: 3px;
     width: 32px;
     background-color: #ff724e;
@@ -3218,7 +3236,7 @@ Faq Section CSS
 }
 
 .faq-accordion .accordion .accordion-item .accordion-title.active i::before {
-    content: "\f068";
+    content: '\f068';
 }
 
 .faq-accordion .accordion .accordion-item .accordion-content {
@@ -3557,7 +3575,7 @@ Services Details CSS
 }
 
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-title.active i::before {
-    content: "\f068";
+    content: '\f068';
 }
 
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-content {
@@ -3944,12 +3962,12 @@ blockquote cite,
 blockquote::before,
 .blockquote::before {
     color: #efefef;
-    content: "\f10e";
+    content: '\f10e';
     position: absolute;
     left: 50px;
     top: -50px;
     z-index: -1;
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Font Awesome 5 Free';
     font-size: 140px;
     font-weight: 900;
 }
@@ -4106,7 +4124,7 @@ blockquote::after,
 }
 
 .comments-area .comment-metadata {
-    margin-bottom: .8em;
+    margin-bottom: 0.8em;
     color: #6a6c72;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -4163,18 +4181,18 @@ blockquote::after,
     margin-bottom: 5px;
 }
 
-.comments-area .comment-respond input[type="date"],
-.comments-area .comment-respond input[type="time"],
-.comments-area .comment-respond input[type="datetime-local"],
-.comments-area .comment-respond input[type="week"],
-.comments-area .comment-respond input[type="month"],
-.comments-area .comment-respond input[type="text"],
-.comments-area .comment-respond input[type="email"],
-.comments-area .comment-respond input[type="url"],
-.comments-area .comment-respond input[type="password"],
-.comments-area .comment-respond input[type="search"],
-.comments-area .comment-respond input[type="tel"],
-.comments-area .comment-respond input[type="number"],
+.comments-area .comment-respond input[type='date'],
+.comments-area .comment-respond input[type='time'],
+.comments-area .comment-respond input[type='datetime-local'],
+.comments-area .comment-respond input[type='week'],
+.comments-area .comment-respond input[type='month'],
+.comments-area .comment-respond input[type='text'],
+.comments-area .comment-respond input[type='email'],
+.comments-area .comment-respond input[type='url'],
+.comments-area .comment-respond input[type='password'],
+.comments-area .comment-respond input[type='search'],
+.comments-area .comment-respond input[type='tel'],
+.comments-area .comment-respond input[type='number'],
 .comments-area .comment-respond textarea {
     display: block;
     width: 100%;
@@ -4186,18 +4204,18 @@ blockquote::after,
     transition: 0.5s;
 }
 
-.comments-area .comment-respond input[type="date"]:focus,
-.comments-area .comment-respond input[type="time"]:focus,
-.comments-area .comment-respond input[type="datetime-local"]:focus,
-.comments-area .comment-respond input[type="week"]:focus,
-.comments-area .comment-respond input[type="month"]:focus,
-.comments-area .comment-respond input[type="text"]:focus,
-.comments-area .comment-respond input[type="email"]:focus,
-.comments-area .comment-respond input[type="url"]:focus,
-.comments-area .comment-respond input[type="password"]:focus,
-.comments-area .comment-respond input[type="search"]:focus,
-.comments-area .comment-respond input[type="tel"]:focus,
-.comments-area .comment-respond input[type="number"]:focus,
+.comments-area .comment-respond input[type='date']:focus,
+.comments-area .comment-respond input[type='time']:focus,
+.comments-area .comment-respond input[type='datetime-local']:focus,
+.comments-area .comment-respond input[type='week']:focus,
+.comments-area .comment-respond input[type='month']:focus,
+.comments-area .comment-respond input[type='text']:focus,
+.comments-area .comment-respond input[type='email']:focus,
+.comments-area .comment-respond input[type='url']:focus,
+.comments-area .comment-respond input[type='password']:focus,
+.comments-area .comment-respond input[type='search']:focus,
+.comments-area .comment-respond input[type='tel']:focus,
+.comments-area .comment-respond input[type='number']:focus,
 .comments-area .comment-respond textarea:focus {
     border-color: #ff2121;
 }
@@ -4803,8 +4821,8 @@ Shop Area CSS
 }
 
 .woocommerce-topbar .woocommerce-topbar-ordering .nice-select .list .option {
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
@@ -4839,8 +4857,8 @@ Shop Area CSS
 }
 
 .single-product-box .product-image a img {
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .single-product-box .product-image .add-to-cart-btn {
@@ -4930,8 +4948,8 @@ Shop Area CSS
     bottom: 0;
     opacity: 1;
     visibility: visible;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     text-decoration: none;
 }
 
@@ -5007,8 +5025,8 @@ Product Details Area CSS
     width: 50px;
     height: 100%;
     line-height: 55px;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .product-details-desc .product-add-to-cart .input-counter span.minus-btn {
@@ -5068,8 +5086,8 @@ Product Details Area CSS
 .product-details-desc .product-add-to-cart .default-btn:hover {
     background-color: #ffffff;
     color: #ff2121;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .product-details-desc .buy-checkbox-btn {
@@ -5107,8 +5125,8 @@ Product Details Area CSS
     border: 1px solid #ebebeb;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .product-details-desc .buy-checkbox-btn .cbx span:first-child svg {
@@ -5128,12 +5146,12 @@ Product Details Area CSS
     transition-delay: 0.1s;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .product-details-desc .buy-checkbox-btn .cbx span:first-child:before {
-    content: "";
+    content: '';
     width: 100%;
     height: 100%;
     background: #000000;
@@ -5142,8 +5160,8 @@ Product Details Area CSS
     transform: scale(0);
     opacity: 1;
     border-radius: 50%;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .product-details-desc .buy-checkbox-btn .cbx span:last-child {
@@ -5184,8 +5202,8 @@ Product Details Area CSS
     background-color: #f2f2f2;
     border: none;
     padding: 13px 25px 10px 25px;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     font-weight: 600;
     display: block;
     width: 100%;
@@ -5345,8 +5363,8 @@ Product Details Area CSS
     padding: 14px 25px;
     background-color: #ff2121;
     color: #ffffff;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-title .default-btn:hover {
@@ -5453,8 +5471,8 @@ Product Details Area CSS
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .default-btn:hover {
     background-color: #ffffff;
     color: #ff2121;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .related-products {
@@ -5491,7 +5509,7 @@ Cart Area CSS
 
 .cart-table table tbody tr td {
     vertical-align: middle;
-    color: .6s;
+    color: 0.6s;
     white-space: nowrap;
     padding-left: 0;
     padding-right: 0;
@@ -5543,8 +5561,8 @@ Cart Area CSS
     width: 40px;
     height: 100%;
     line-height: 48px;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter span.minus-btn {
@@ -5624,8 +5642,8 @@ Cart Area CSS
     line-height: 54px;
     font-weight: 600;
     outline: 0;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -5648,8 +5666,8 @@ Cart Area CSS
 .cart-buttons .default-btn:hover {
     background-color: #ffffff;
     color: #ff2121;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .cart-totals {
@@ -5714,8 +5732,8 @@ Cart Area CSS
 .cart-totals .default-btn:hover {
     background-color: #ffffff;
     color: #ff2121;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 
@@ -5821,8 +5839,8 @@ Checkout Area CSS
 }
 
 .billing-details .form-group .nice-select .list .option {
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -5957,13 +5975,13 @@ Checkout Area CSS
     padding: 30px;
 }
 
-.order-details .payment-box .payment-method p [type="radio"]:checked,
-.order-details .payment-box .payment-method p [type="radio"]:not(:checked) {
+.order-details .payment-box .payment-method p [type='radio']:checked,
+.order-details .payment-box .payment-method p [type='radio']:not(:checked) {
     display: none;
 }
 
-.order-details .payment-box .payment-method p [type="radio"]:checked+label,
-.order-details .payment-box .payment-method p [type="radio"]:not(:checked)+label {
+.order-details .payment-box .payment-method p [type='radio']:checked+label,
+.order-details .payment-box .payment-method p [type='radio']:not(:checked)+label {
     padding-left: 27px;
     cursor: pointer;
     display: block;
@@ -5973,8 +5991,8 @@ Checkout Area CSS
     font-weight: 600;
 }
 
-.order-details .payment-box .payment-method p [type="radio"]:checked+label::before,
-.order-details .payment-box .payment-method p [type="radio"]:not(:checked)+label::before {
+.order-details .payment-box .payment-method p [type='radio']:checked+label::before,
+.order-details .payment-box .payment-method p [type='radio']:not(:checked)+label::before {
     content: '';
     position: absolute;
     left: 0;
@@ -5986,8 +6004,8 @@ Checkout Area CSS
     background: #ffffff;
 }
 
-.order-details .payment-box .payment-method p [type="radio"]:checked+label::after,
-.order-details .payment-box .payment-method p [type="radio"]:not(:checked)+label::after {
+.order-details .payment-box .payment-method p [type='radio']:checked+label::after,
+.order-details .payment-box .payment-method p [type='radio']:not(:checked)+label::after {
     content: '';
     width: 12px;
     height: 12px;
@@ -5996,18 +6014,18 @@ Checkout Area CSS
     top: 6px;
     left: 3px;
     border-radius: 50%;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
-.order-details .payment-box .payment-method p [type="radio"]:not(:checked)+label::after {
+.order-details .payment-box .payment-method p [type='radio']:not(:checked)+label::after {
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0);
     transform: scale(0);
 }
 
-.order-details .payment-box .payment-method p [type="radio"]:checked+label::after {
+.order-details .payment-box .payment-method p [type='radio']:checked+label::after {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
@@ -6023,8 +6041,8 @@ Checkout Area CSS
     text-decoration: none;
     color: #202647;
     background-color: #ffffff;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .order-details .payment-box .default-btn:hover {
@@ -6051,8 +6069,8 @@ Contact Section CSS
     position: relative;
     -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
     box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .contact-box .icon {
@@ -6062,13 +6080,13 @@ Contact Section CSS
     width: 50px;
     height: 50px;
     text-align: center;
-    color: #28406D;
+    color: #28406d;
     line-height: 47px;
-    border: 1px dashed #28406D;
+    border: 1px dashed #28406d;
     border-radius: 50%;
     font-size: 22px;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .contact-box:hover {
@@ -6101,7 +6119,7 @@ Contact Section CSS
 }
 
 .contact-box .content a:hover {
-    color: #28406D;
+    color: #28406d;
 }
 
 .contact-text {
@@ -6158,8 +6176,8 @@ Contact Section CSS
     border: 1px solid #f3f5fe;
     outline: 0;
     border-radius: 5px;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     background: #f3f5fe;
 }
 
@@ -6231,8 +6249,8 @@ Contact Section CSS
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
 }
 
 .error-content .default-btn-one:hover {
@@ -6265,7 +6283,7 @@ Coming Soon Area CSS
     width: 100%;
     height: 100%;
     content: '';
-    opacity: .80;
+    opacity: 0.8;
 }
 
 .coming-soon-area .social-list {
@@ -6307,8 +6325,8 @@ Coming Soon Area CSS
 .coming-soon-area .social-list li a:hover {
     background-color: transparent;
     color: #f45a43;
-    -webkit-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
     -webkit-transition: 0.5s;
 }
 
@@ -6349,7 +6367,7 @@ Coming Soon Area CSS
     border-radius: 40px;
     padding: 15px 25px;
     outline: 0 !important;
-    background: #F1F2F3;
+    background: #f1f2f3;
 }
 
 .coming-soon-content form .submit-btn {
@@ -6414,7 +6432,7 @@ Footer Section CSS
 
 .footer-section::before {
     position: absolute;
-    content: "";
+    content: '';
     height: 100%;
     width: 100%;
     background-color: #202647;

@@ -28,11 +28,11 @@
               </div>
 
               <ul class="footer-quick-links">
-                <li><a href="#">关于</a></li>
-                <li><a href="#">产品</a></li>
-                <li><a href="#">案例</a></li>
-                <li><a href="#">帮助</a></li>
-                <li><a href="#">新闻</a></li>
+                <li><a href="/aboutus/">关于</a></li>
+                <li><a href="/products/">产品</a></li>
+                <li><a href="/projects/">方案</a></li>
+                <li><a href="/services/">服务</a></li>
+                <li><a href="/blogs/">新闻</a></li>
               </ul>
             </div>
           </div>

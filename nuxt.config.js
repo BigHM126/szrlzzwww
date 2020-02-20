@@ -26,7 +26,7 @@ export default {
      */
     css: [
         '~assets/scss/config.scss',
-        '~assets/style.css',
+        '~assets/style.scss',
         '~assets/vendor/font-awesome/css/font-awesome.min.css',
         '~assets/vendor/flaticon/css/flaticon.css',
         'swiper/dist/css/swiper.css'

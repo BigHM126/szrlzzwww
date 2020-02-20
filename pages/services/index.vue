@@ -132,6 +132,89 @@
         </div>
       </div>
     </section>
+
+    <section class="faq-section pt-100">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="faq-accordion">
+              <ul class="accordion">
+                <li class="accordion-item">
+                  <a class="accordion-title active" href="javascript:void(0)"
+                    ><i class="fa fa-plus"></i> Does the price go up as my team
+                    gets larger?</a
+                  >
+                  <p class="accordion-content show">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                </li>
+
+                <li class="accordion-item">
+                  <a class="accordion-title" href="javascript:void(0)"
+                    ><i class="fa fa-plus"></i> What access do I have on the
+                    free plan?</a
+                  >
+                  <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                </li>
+
+                <li class="accordion-item">
+                  <a class="accordion-title" href="javascript:void(0)"
+                    ><i class="fa fa-plus"></i> Does the price go up as my team
+                    gets larger?
+                  </a>
+                  <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                </li>
+
+                <li class="accordion-item">
+                  <a class="accordion-title" href="javascript:void(0)"
+                    ><i class="fa fa-plus"></i> How long does it take for
+                    equipment to be delivered?</a
+                  >
+                  <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                </li>
+
+                <li class="accordion-item">
+                  <a class="accordion-title" href="javascript:void(0)"
+                    ><i class="fa fa-plus"></i> I’m a developer, how do I become
+                    a Glass Partner?</a
+                  >
+                  <p class="accordion-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="faq-image">
+              <img src="~assets/img/faq-image.png" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
