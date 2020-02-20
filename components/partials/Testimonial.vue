@@ -18,101 +18,17 @@
         </div>
 
         <div class="col-lg-8">
-          <div class="testimonial-slides owl-carousel owl-theme">
-            <div class="testimonial-single-item">
-              <div class="testimonial-image">
-                <img src="~assets/img/client-image/1.jpg" alt="image" />
-              </div>
-
-              <div class="testimonial-content-text">
-                <h3>R.Mortein</h3>
-                <span>Product Manager</span>
-                <div class="icon">
-                  <i class="flaticon-quote"></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse gravida.
-                </p>
+          <div v-swiper:mainbanner="swiperOption">
+            <div class="swiper-wrapper">
+              <div
+                v-for="(slide, index) in slides"
+                :key="index"
+                class="swiper-slide "
+              >
+                <img :src="slide" />
               </div>
             </div>
-
-            <div class="testimonial-single-item">
-              <div class="testimonial-image">
-                <img src="~assets/img/client-image/2.jpg" alt="image" />
-              </div>
-
-              <div class="testimonial-content-text">
-                <h3>Edward Bold</h3>
-                <span>CEO & Founder</span>
-                <div class="icon">
-                  <i class="flaticon-quote"></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse gravida.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-single-item">
-              <div class="testimonial-image">
-                <img src="~assets/img/client-image/3.jpg" alt="image" />
-              </div>
-
-              <div class="testimonial-content-text">
-                <h3>Mahindra jhon</h3>
-                <span>Ceo & Sustainable designer</span>
-                <div class="icon">
-                  <i class="flaticon-quote"></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse gravida.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-single-item">
-              <div class="testimonial-image">
-                <img src="~assets/img/client-image/1.jpg" alt="image" />
-              </div>
-
-              <div class="testimonial-content-text">
-                <h3>Lee Munroe</h3>
-                <span>Underwriter</span>
-                <div class="icon">
-                  <i class="flaticon-quote"></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse gravida.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-single-item">
-              <div class="testimonial-image">
-                <img src="~assets/img/client-image/4.jpg" alt="image" />
-              </div>
-
-              <div class="testimonial-content-text">
-                <h3>Meg Lanning</h3>
-                <span>Agent Manager</span>
-                <div class="icon">
-                  <i class="flaticon-quote"></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse gravida.
-                </p>
-              </div>
-            </div>
+            <div class="swiper-pagination swiper-pagination-bullets"></div>
           </div>
         </div>
       </div>
@@ -122,7 +38,48 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      slides: [
+        '@/assets/img/client-image/1.jpg',
+        '~assets/img/client-image/2.jpg',
+        '~assets/img/client-image/3.jpg'
+      ],
+      swiperOption: {
+        loop: true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true
+        },
+        on: {
+          slideChange() {
+            // console.log('onSlideChangeEnd', this)
+          },
+          tap() {
+            // console.log('onTap', this)
+          }
+        }
+      }
+    }
+  },
+  mounted() {
+    // console.log('app init', this)
+    setTimeout(() => {
+      this.slides.push('/4.jpg')
+      // console.log('banners update')
+    }, 3000)
+    /* console.log(
+      'This is current swiper instance object',
+      this.mySwiper,
+      'I will slideTo banners 3'
+    ) */
+    this.mainbanner.slideTo(3)
+  }
+}
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>
