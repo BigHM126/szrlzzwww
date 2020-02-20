@@ -13,18 +13,18 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item href="/products/" class="h5 navlink"
-              >在线产品</b-nav-item
+            <b-nav-item href="/products/" class="h5 navlink">
+              在线产品
+            </b-nav-item>
+            <b-nav-item href="/projects/" class="h5 navlink"
+              >解决方案</b-nav-item
             >
-            <b-nav-item href="/lines/" class="h5 navlink">解决方案</b-nav-item>
-            <b-nav-item href="/blogs/" class="h5 navlink">业内新闻</b-nav-item>
+            <b-nav-item href="/blogs/" class="h5 navlink">行业要闻</b-nav-item>
             <b-nav-item href="/partners/" class="h5 navlink"
               >生态联盟</b-nav-item
             >
-            <b-nav-item
-              href="https://bighm126.github.io/szrlzzdocs/"
-              class="h5 navlink"
-              >帮助支持</b-nav-item
+            <b-nav-item href="/services/" class="h5 navlink"
+              >服务支持</b-nav-item
             >
           </b-navbar-nav>
           <b-navbar-nav class="mx-auto">

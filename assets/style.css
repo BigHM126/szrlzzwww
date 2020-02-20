@@ -3346,6 +3346,7 @@ Page Title Area CSS
 
 .page-title-area {
     position: relative;
+    margin-top: 75px;
     z-index: 1;
     background-image: url(~assets/img/page-title-bg.png);
     background-position: center center;
@@ -6633,4 +6634,5 @@ Copyright Section CSS
 }
 
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=
+style.css.map */
