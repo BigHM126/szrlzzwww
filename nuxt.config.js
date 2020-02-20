@@ -25,8 +25,10 @@ export default {
      ** Global CSS
      */
     css: [
-        '@/assets/scss/config.scss',
-        '@/assets/style.css',
+        '~assets/scss/config.scss',
+        '~assets/style.css',
+        '~assets/vendor/font-awesome/css/font-awesome.min.css',
+        '~assets/vendor/flaticon/css/flaticon.css',
         'swiper/dist/css/swiper.css'
     ],
     /*
