@@ -49,6 +49,7 @@ export default {
    */
 
   ...routerBase,
+
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module'
