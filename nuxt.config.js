@@ -1,3 +1,11 @@
+const routerBase =
+    process.env.DEPLOY_ENV === 'GH_PAGES' ?
+    {
+        router: {
+            base: '/szrlzzwww/'
+        }
+    } :
+    {}
 export default {
     mode: 'universal',
     /*
@@ -38,6 +46,8 @@ export default {
     /*
      ** Nuxt.js dev-modules
      */
+
+    ...routerBase,
     buildModules: [
         // Doc: https://github.com/nuxt-community/eslint-module
         '@nuxtjs/eslint-module'
