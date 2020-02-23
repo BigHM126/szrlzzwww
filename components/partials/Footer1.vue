@@ -9,15 +9,15 @@
               <div class="footer-heading">
                 <h3>关于</h3>
               </div>
-              <p>全球技术、立足深圳、服务全国</p>
-              <p>深圳市瑞联智造科技有限公司</p>
+              <h5 class="text-light">全球技术、立足深圳、服务全国</h5>
+              <h6 class="text-light">深圳市瑞联智造科技有限公司</h6>
 
               <p>
                 “瑞联智造”是一家专注与智能制造领域的专业化工业互联网综合服务型公司。我们主要提供智能制造相关的软件、硬件及集成、开发服务。
               </p>
               <hr />
 
-              <span class="gray"> 科瑞技术(002957) 旗下子公司</span>
+              <span class="text-muted"> 科瑞技术(002957) 旗下子公司</span>
             </div>
           </div>
 

@@ -48,11 +48,13 @@
           <div class="col-lg-4 col-md-12">
             <div class="contact-box">
               <div class="icon">
-                <i class="fa fa-map-marker"></i>
+                <i class="fa fa-globe" aria-hidden="true"></i>
               </div>
               <div class="content">
-                <h4>瑞联智造</h4>
-                <p>微信公众号</p>
+                <h4>
+                  www.szrlzz.com
+                </h4>
+                <p>企业官网</p>
               </div>
             </div>
           </div>

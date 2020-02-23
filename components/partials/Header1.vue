@@ -28,10 +28,59 @@
             >
           </b-navbar-nav>
           <b-navbar-nav class="mx-auto">
-            <b-button pill variant="primary">
-              <b-icon icon="laptop"></b-icon>预约演示
-            </b-button>
+            <b-button v-b-modal.modal-1 pill variant="primary"
+              ><b-icon icon="laptop"></b-icon>预约演示</b-button
+            >
+            <nuxt-link to="/login" class="btn btn-link">登录/退出</nuxt-link>
+            <a id="login" name="login" href="/" role="button"></a>
           </b-navbar-nav>
+          <div>
+            <b-modal id="modal-1" centered title="预约演示">
+              <div>
+                <p>请务必填写准确，以便能及时与您取得联系，谢谢！</p>
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="姓名"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="邮箱"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="类别"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                      <div class="form-group">
+                        <textarea
+                          name="message"
+                          class="form-control"
+                          placeholder="内容"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </b-modal>
+          </div>
         </b-collapse>
       </b-navbar>
     </header>
